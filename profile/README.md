@@ -1,7 +1,5 @@
 # Mada Rent
 
-> A centralized rental listings platform for Madagascar
-
 ## What is Mada Rent?
 
 Mada Rent is a web application designed to simplify the process of finding and listing rental properties across Madagascar. By aggregating scattered Facebook Group posts and offering direct property-owner listings, it provides a single, reliable source for renters and landlords alike.
@@ -33,7 +31,7 @@ Mada Rent is a web application designed to simplify the process of finding and l
   [Go](https://golang.org/) + [Fiber](https://gofiber.io/) – high-performance microservice to pull and normalize Facebook Group data  
 
 - **Deployment & Hosting:**  
-  [Coolify](https://coolify.io/) on a Hetzner VPS – containerized deployment with automatic builds and reverse-proxy routing  
+  [Coolify](https://coolify.io/) on a Hetzner CX32 VPS – containerized deployment with automatic builds and reverse-proxy routing  
 
 ---
 
@@ -45,3 +43,4 @@ This codebase is proprietary and closed source. See the [LICENSE](./license) for
 
 Ohayo Dev and Design  
 📧 axeldiaryrakotoarivao@gmail.com  
+
