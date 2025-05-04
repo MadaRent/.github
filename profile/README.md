@@ -1,46 +1,30 @@
-# Mada Rent
+# 🏠 Mada Rent 🇲🇬
 
-## What is Mada Rent?
+**Mada Rent** is a rental platform designed specifically for **Madagascar**, helping people find and rent houses on a **monthly basis**. Unlike short-term vacation services, Mada Rent connects renters with **long-term rental homes**, making it easier to find a comfortable place to live.
 
-Mada Rent is a web application designed to simplify the process of finding and listing rental properties across Madagascar. By aggregating scattered Facebook Group posts and offering direct property-owner listings, it provides a single, reliable source for renters and landlords alike.
+## 🌍 Why Mada Rent?
 
-## What does it do?
+- **Built for Madagascar** 🇲🇬 – A platform tailored to local renters and landlords’ needs.  
+- **Monthly Rentals** 📅 – Focused exclusively on long-term stays.  
+- **Centralized Listings** 🔍 – Aggregates Facebook Group posts and owner-submitted listings in one place.  
+- **Verified Quality** ✔️ – Manual review of every listing to ensure accuracy and reduce scams.  
+- **Secure Contact** 🔒 – Renters pay a small fee (5 000 Ar) to contact landlords; landlords pay (10 000 Ar) per confirmed visit.
 
-- **Centralized Listings**  
-  Pulls recent rental posts from multiple Facebook groups into one unified feed.
+## 🏗️ Tech Stack
 
-- **Owner Direct Posts**  
-  Allows “propriétaires” (landlords) to create and manage their own listings, with clear availability statuses (available, booked, rented).
+| Technology               | Purpose                                                      |
+| ------------------------ | ------------------------------------------------------------ |
+| **SvelteKit**            | Frontend framework for building a fast, reactive UI          |
+| **PocketBase**           | Self-hosted auth & database for user management and listings |
+| **Go + Fiber**           | High-performance microservice for Facebook post aggregation  |
+| **CapacitorJS**          | Mobile ports of the web app                                  |
+| **Coolify on Hetzner CX32** | Containerized deployment and hosting                       |
 
-- **Advanced Filters**  
-  Search by city, price range, property type, and more to quickly find the right home.
+## 🎯 How It Works
 
-- **Verified Quality**  
-  All listings—whether aggregated or owner-submitted—are manually reviewed to ensure accuracy and reduce scams.
+1. **Browse Listings** – View the latest available rentals, complete with clear availability statuses.  
+2. **Filter & Search** – Narrow down results by city, price, property type, and more.  
+3. **Contact Landlords** – Pay a nominal fee to unlock landlord contact details.  
+4. **Manage Listings (Owners)** – Landlords can post, edit, and toggle availability of their properties.  
 
-- **Secure Contact Gateway**  
-  Renters pay a small fee (5 000 Ar) to contact landlords directly; landlords pay (10 000 Ar) per confirmed visit, ensuring serious inquiries only.
-
-## Built With
-
-- **Frontend:**  
-  [SvelteKit](https://kit.svelte.dev/) – fast, reactive UI framework  
-  [PocketBase](https://pocketbase.io/) – self-hosted backend for authentication and data storage  
-
-- **Backend Aggregation Service:**  
-  [Go](https://golang.org/) + [Fiber](https://gofiber.io/) – high-performance microservice to pull and normalize Facebook Group data  
-
-- **Deployment & Hosting:**  
-  [Coolify](https://coolify.io/) on a Hetzner CX32 VPS – containerized deployment with automatic builds and reverse-proxy routing  
-
----
-
-## License
-
-This codebase is proprietary and closed source. See the [LICENSE](./license) for details.
-
-## Contact
-
-Ohayo Dev and Design  
-📧 axeldiaryrakotoarivao@gmail.com  
-
+**Mada Rent makes finding and managing long-term rentals in Madagascar easier, faster, and more transparent!** 🚀
