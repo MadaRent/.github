@@ -1,105 +1,34 @@
-# 🏠 MadaRent — The Modern Real-Estate Platform for Madagascar  
-*(Starting with long-term rentals)*
+<h1 align="center">🏠 MadaRent</h1>
 
-**MadaRent** is becoming a complete real-estate ecosystem designed for **Madagascar**.  
-The first version focuses entirely on **monthly rentals**, but the long-term vision covers the full property market: renting, buying, selling, and property management.
+<p align="center">Find a house to rent in Madagascar, without scrolling through Facebook groups.</p>
 
----
+<p align="center">
+  <a href="https://madarent.mg">madarent.mg</a> ·
+  <a href="https://github.com/MadaRent/madarent-releases/releases/latest/download/madarent.apk">Android app</a>
+</p>
 
-## 🌍 What MadaRent Aims to Solve
+## What it is
 
-- Fragmented real-estate market  
-- Scattered and unreliable Facebook listings  
-- Lack of transparency in availability and pricing  
-- Difficult communication between renters, owners, and agencies  
-- No modern tools for agencies and property managers  
+MadaRent gathers rental listings from Facebook groups, owners and agencies
+into one place: 600+ listings, updated every day and checked before they go up. Search them by
+neighbourhood, budget and type, on a map or with alerts.
 
-**MadaRent centralizes, cleans, and modernizes the entire experience.**
+## What it solves
 
----
+House hunting in Madagascar means hundreds of scattered posts, outdated
+offers and prices you have to ask for. MadaRent makes it one clean,
+searchable list, and gives agencies proper tools to manage their own.
 
-## 🚀 Platform Scope
+## Built with
 
-### **Phase 1 — Long-Term Rentals (Current Focus)**  
-- Listings aggregated from Facebook + manual submissions  
-- Verified and reviewed posts  
-- Meilisearch-powered filters  
-- Unlock contact for **5,000 Ar**  
-- Visit confirmation fee for owners/agencies (**10,000 Ar**)  
-- Owner & agency dashboards  
-- Subdomain architecture (app, agency, admin)
-
-### **Phase 2 — Buying & Selling Properties (Coming Soon)**  
-- Dedicated “Buy / Sell” section  
-- Property categories: land, houses, apartments, commercial  
-- Premium visibility options for agencies  
-- Lead generation tools  
-- Enhanced property pages (plans, maps, more photos)
-
-### **Phase 3 — Professional Tools for Agencies & Owners**  
-- Full real-estate CRM  
-- Multi-agent teams  
-- Automated Facebook reposting  
-- Property performance analytics  
-- Owner/tenant communication  
-- Basic property management tools (payments, history, receipts)
-
-### **Phase 4 — Advanced Real-Estate Services**  
-- Secure deposit payments  
-- Rent collection via mobile money  
-- Property value estimation (ML-powered in the future)  
-- Mortgage calculator + partnerships with banks  
-- Home services marketplace (moving, cleaning, repairs)  
-- Advertising & promotions for agencies and developers
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![PocketBase](https://img.shields.io/badge/PocketBase-B8DBE4?logo=pocketbase&logoColor=black)
+![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?logo=meilisearch&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?logo=hono&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 
 ---
 
-## 🧱 Technical Architecture
-
-| Technology | Purpose |
-|-----------|---------|
-| **SvelteKit** | Main UI for users, owners, and agencies |
-| **PocketBase** | Authentication, DB, file storage, API |
-| **Bun + Hono** | High-performance microservice for Facebook sync |
-| **Meilisearch** | Ultra-fast search engine with sync service |
-| **Dokploy** | Container management and deployments |
-| **Netcup G1000 v11** (4 vCores / 8GB RAM) | Production hosting |
-| **CapacitorJS** | Lightweight Android mobile build |
-
----
-
-## 🌐 App Structure (Subdomains)
-
-- **madarent.mg** → Public website, SEO, listings, Tenant & owner dashboard
-- **agence.madarent.mg** → Professional agency platform (CRM, listings, sync)  
-- **backoffice.madarent.mg** → Internal backoffice
-
-All subdomains authenticate through the same PocketBase backend.
-
----
-
-## 🎯 Product Workflow (Rentals)
-
-### 1️⃣ Explore Listings  
-Listings updated continuously from Facebook and owners.
-
-### 2️⃣ Fast Search  
-Powered by Meilisearch with filters: price, city, type, availability, amenities.
-
-### 3️⃣ Unlock Contact  
-Tenants pay **5,000 Ar** to view owner/agency contact details.
-
-### 4️⃣ Manage Properties  
-Owners and agencies can post, edit, deactivate, and sync listings.
-
-### 5️⃣ Confirmed Visits  
-Professionals pay **10,000 Ar** per confirmed visit through the platform.
-
----
-
-## 🔮 The Big Vision
-
-> **MadaRent will evolve into the all-in-one real-estate platform of Madagascar.**  
-Starting with long-term rentals, then expanding into buying, selling, management, and professional tools — all built with a modern, scalable architecture.
-
----
+<sub>Built in Antananarivo, Madagascar 🇲🇬 by <a href="https://axel-rakotoarivao.pages.dev/">Axel RAKOTOARIVAO</a>.</sub>
